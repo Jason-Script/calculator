@@ -20,7 +20,7 @@
     border: solid 2px grey;
     padding: 0 10px;
     width: 90%;
-    height: 10%;
+    height: 15%;
     margin-top: 2%;
     font-size: 24pt;
 }
@@ -32,11 +32,18 @@
 
 #clear-button {
     display: flex;
-    flex-basis: 300px;
+    flex-basis: 350px;
+}
+
+#divide-button {
+    flex-basis: 100px;
 }
 
 button {
     display: flex;
     flex: 1 1 100px;
     margin: 0 10px 10px 10px;
+    font-size: 24pt;
+    justify-content: center;
+    align-items: center;
 }
