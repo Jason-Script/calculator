@@ -1,0 +1,42 @@
+#page-container {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#calculator-container {
+    display: flex;
+    width: 500px;
+    height: 600px;
+    outline: solid 2px black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#display {
+    border: solid 2px grey;
+    padding: 0 10px;
+    width: 90%;
+    height: 10%;
+    margin-top: 2%;
+    font-size: 24pt;
+}
+
+#display:focus {
+    border-color: darkgray;
+    outline: none;
+}
+
+#clear-button {
+    display: flex;
+    flex-basis: 300px;
+}
+
+button {
+    display: flex;
+    flex: 1 1 100px;
+    margin: 0 10px 10px 10px;
+}
