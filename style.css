@@ -4,6 +4,7 @@
     height: 90vh;
     justify-content: center;
     align-items: center;
+    background-color: #fffcf2;
 }
 
 
@@ -11,18 +12,20 @@
     display: flex;
     width: 500px;
     height: 600px;
-    outline: solid 2px black;
+    outline: solid 2px #ccc5b9;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #252422;
 }
 
 #display {
     border: solid 2px grey;
+    text-align: right;
     padding: 0 10px;
     width: 90%;
     height: 15%;
     margin-top: 2%;
-    font-size: 24pt;
+    font-size: 28pt;
 }
 
 #display:focus {
@@ -33,6 +36,7 @@
 #clear-button {
     display: flex;
     flex-basis: 350px;
+    background-color: #f2a138;
 }
 
 #divide-button {
@@ -46,4 +50,10 @@ button {
     font-size: 24pt;
     justify-content: center;
     align-items: center;
+    border-color: #403d39;
+    background-color: #ccc5b9;
+}
+
+.operator {
+    background-color: #eb5e28;
 }

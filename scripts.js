@@ -22,6 +22,13 @@ for (let i = 0; i < numButton.length; i++) {
 }
 
 function operate() {
+    if (display.value.includes("+") ||
+        display.value.includes("-") ||
+        display.value.includes("x") ||
+        display.value.includes("÷")
+    ) {
+        return;
+    }
     arr.push(display.value);
     if (arr[1] == "+") {
         let result = (Number(arr[0]) + Number(arr[2]));
@@ -117,7 +124,3 @@ divideButton.addEventListener("click", () => {
 
 
 
-// Create a new function that will perform an operation when the = button is clicked. Call the function if there are already 2 items inside of the array.
-//Remove arr.push from the first part of add function, and instead, add " + " to the input box. Slice up the string into an array, using spaces as the delimiter.
-
-// Use get element by clas name, loop through all elements with a for loop and apply event listener to each one
